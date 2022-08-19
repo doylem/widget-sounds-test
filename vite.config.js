@@ -1,3 +1,3 @@
 export default {
-  base: "widget-sounds-test",
+  base: "/widget-sounds-test/",
 }
