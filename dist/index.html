@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Widget Sounds Test</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/widget-sounds-test/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" crossorigin src="/widget-sounds-test/assets/index.8eb9213b.js"></script>
+    <link rel="stylesheet" href="/widget-sounds-test/assets/index.c5ea0bbc.css">
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <h1>Web Widget Sounds test</h1>
+    <br />
+    <div>
+      <label for="lang">Incoming (inactive)</label>
+      <select name="incoming-inactive" id="incoming-inactive">
+        <option value="Blip1">Blip1.wav</option>
+        <option value="Blip2">Blip2.wav</option>
+        <option value="Blip3">Blip3.wav</option>
+        <option value="Blip4">Blip4.wav</option>
+        <option value="Blip5">Blip5.wav</option>
+        <option value="Blip6">Blip6.wav</option>
+        <option value="Blip7">Blip7.wav</option>
+        <option value="Blip8">Blip8.wav</option>
+        <option value="Blip9">Blip9.wav</option>
+        <option value="Blip10">Blip10.wav</option>
+        <option value="FastType">FastType.wav</option>
+        <option value="Keys1">Keys1.wav</option>
+        <option value="Keys2">Keys2.wav</option>
+        <option value="Keys3">Keys3.wav</option>
+        <option value="Keys4">Keys4.wav</option>
+        <option value="Keys5">Keys5.wav</option>
+        <option value="Keys6">Keys6.wav</option>
+        <option value="Keys7">Keys7.wav</option>
+        <option value="Keys8">Keys8.wav</option>
+        <option value="Keys9">Keys9.wav</option>
+        <option value="Keys10">Keys10.wav</option>
+        <option value="Keys11">Keys11.wav</option>
+        <option value="Marimba1">Marimba1.wav</option>
+        <option value="Marimba2">Marimba2.wav</option>
+        <option value="Marimba3">Marimba3.wav</option>
+        <option value="Marimba4">Marimba4.wav</option>
+        <option value="Marimba5">Marimba5.wav</option>
+        <option value="Marimba6">Marimba6.wav</option>
+        <option value="Marimba7">Marimba7.wav</option>
+        <option value="Marimba8">Marimba8.wav</option>
+        <option value="Marimba9">Marimba9.wav</option>
+        <option value="Marimba10">Marimba10.wav</option>
+        <option value="Marimba11">Marimba11.wav</option>
+        <option value="Marimba12">Marimba12.wav</option>
+        <option value="Marimba13">Marimba13.wav</option>
+        <option value="Voice1">Voice1.wav</option>
+        <option value="Voice2">Voice2.wav</option>
+        <option value="Xylo1">Xylo1.wav</option>
+        <option value="Xylo2">Xylo2.wav</option>
+      </select>
+      <button
+        class="button"
+        style="margin-left: 10px"
+        id="incoming-inactive-button"
+      >
+        Play
+      </button>
+    </div>
+    <div>
+      <label for="lang">Incoming (active)</label>
+      <select name="incoming-active" id="incoming-active">
+        <option value="Blip1">Blip1.wav</option>
+        <option value="Blip2">Blip2.wav</option>
+        <option value="Blip3">Blip3.wav</option>
+        <option value="Blip4">Blip4.wav</option>
+        <option value="Blip5">Blip5.wav</option>
+        <option value="Blip6">Blip6.wav</option>
+        <option value="Blip7">Blip7.wav</option>
+        <option value="Blip8">Blip8.wav</option>
+        <option value="Blip9">Blip9.wav</option>
+        <option value="Blip10">Blip10.wav</option>
+        <option value="FastType">FastType.wav</option>
+        <option value="Keys1">Keys1.wav</option>
+        <option value="Keys2">Keys2.wav</option>
+        <option value="Keys3">Keys3.wav</option>
+        <option value="Keys4">Keys4.wav</option>
+        <option value="Keys5">Keys5.wav</option>
+        <option value="Keys6">Keys6.wav</option>
+        <option value="Keys7">Keys7.wav</option>
+        <option value="Keys8">Keys8.wav</option>
+        <option value="Keys9">Keys9.wav</option>
+        <option value="Keys10">Keys10.wav</option>
+        <option value="Keys11">Keys11.wav</option>
+        <option value="Marimba1">Marimba1.wav</option>
+        <option value="Marimba2">Marimba2.wav</option>
+        <option value="Marimba3">Marimba3.wav</option>
+        <option value="Marimba4">Marimba4.wav</option>
+        <option value="Marimba5">Marimba5.wav</option>
+        <option value="Marimba6">Marimba6.wav</option>
+        <option value="Marimba7">Marimba7.wav</option>
+        <option value="Marimba8">Marimba8.wav</option>
+        <option value="Marimba9">Marimba9.wav</option>
+        <option value="Marimba10">Marimba10.wav</option>
+        <option value="Marimba11">Marimba11.wav</option>
+        <option value="Marimba12">Marimba12.wav</option>
+        <option value="Marimba13">Marimba13.wav</option>
+        <option value="Voice1">Voice1.wav</option>
+        <option value="Voice2">Voice2.wav</option>
+        <option value="Xylo1">Xylo1.wav</option>
+        <option value="Xylo2">Xylo2.wav</option>
+      </select>
+      <button
+        class="button"
+        style="margin-left: 10px"
+        id="incoming-active-button"
+      >
+        Play
+      </button>
+    </div>
+
+    <div>
+      <label for="lang">Outgoing</label>
+      <select name="outgoing" id="outgoing">
+        <option value="Blip1">Blip1.wav</option>
+        <option value="Blip2">Blip2.wav</option>
+        <option value="Blip3">Blip3.wav</option>
+        <option value="Blip4">Blip4.wav</option>
+        <option value="Blip5">Blip5.wav</option>
+        <option value="Blip6">Blip6.wav</option>
+        <option value="Blip7">Blip7.wav</option>
+        <option value="Blip8">Blip8.wav</option>
+        <option value="Blip9">Blip9.wav</option>
+        <option value="Blip10">Blip10.wav</option>
+        <option value="FastType">FastType.wav</option>
+        <option value="Keys1">Keys1.wav</option>
+        <option value="Keys2">Keys2.wav</option>
+        <option value="Keys3">Keys3.wav</option>
+        <option value="Keys4">Keys4.wav</option>
+        <option value="Keys5">Keys5.wav</option>
+        <option value="Keys6">Keys6.wav</option>
+        <option value="Keys7">Keys7.wav</option>
+        <option value="Keys8">Keys8.wav</option>
+        <option value="Keys9">Keys9.wav</option>
+        <option value="Keys10">Keys10.wav</option>
+        <option value="Keys11">Keys11.wav</option>
+        <option value="Marimba1">Marimba1.wav</option>
+        <option value="Marimba2">Marimba2.wav</option>
+        <option value="Marimba3">Marimba3.wav</option>
+        <option value="Marimba4">Marimba4.wav</option>
+        <option value="Marimba5">Marimba5.wav</option>
+        <option value="Marimba6">Marimba6.wav</option>
+        <option value="Marimba7">Marimba7.wav</option>
+        <option value="Marimba8">Marimba8.wav</option>
+        <option value="Marimba9">Marimba9.wav</option>
+        <option value="Marimba10">Marimba10.wav</option>
+        <option value="Marimba11">Marimba11.wav</option>
+        <option value="Marimba12">Marimba12.wav</option>
+        <option value="Marimba13">Marimba13.wav</option>
+        <option value="Voice1">Voice1.wav</option>
+        <option value="Voice2">Voice2.wav</option>
+        <option value="Xylo1">Xylo1.wav</option>
+        <option value="Xylo2">Xylo2.wav</option>
+      </select>
+      <button class="button" style="margin-left: 10px" id="outgoing-button">
+        Play
+      </button>
+    </div>
+
+    <br />
+    <br />
+    <input id="submit" type="submit" value="Apply to widget" />
+
+    <!-- Start of z3nmd Zendesk Widget script -->
+    <script
+      id="ze-snippet"
+      src="https://static.zdassets.com/ekr/snippet.js?key=dc01bd87-7017-4f2e-acc4-18cc9ac5d445"
+    ></script>
+    <!-- End of z3nmd Zendesk Widget script -->
+    
+  </body>
+</html>
