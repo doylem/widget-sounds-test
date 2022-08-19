@@ -1,4 +1,4 @@
-// import "./style.css"
+import "./style.css"
 // import javascriptLogo from "./javascript.svg"
 // import { setupCounter } from "./counter.js"
 
@@ -22,55 +22,94 @@
 
 // setupCounter(document.querySelector('#counter'))
 
-// const Blip1 = require("./mp3/Blip1.mp3")
-// const Blip2 = require("./mp3/Blip2.mp3")
-// const Blip3 = require("./mp3/Blip3.mp3")
-// const Blip4 = require("./mp3/Blip4.mp3")
-// const Blip5 = require("./mp3/Blip5.mp3")
-// const Blip6 = require("./mp3/Blip6.mp3")
-// const Blip7 = require("./mp3/Blip7.mp3")
-// const Blip8 = require("./mp3/Blip8.mp3")
-// const Blip9 = require("./mp3/Blip9.mp3")
-// const Blip10 = require("./mp3/Blip10.mp3")
-// const FastType = require("./mp3/FastType.mp3")
-// const Keys1 = require("./mp3/Keys1.mp3")
-// const Keys2 = require("./mp3/Keys2.mp3")
-// const Keys3 = require("./mp3/Keys3.mp3")
-// const Keys4 = require("./mp3/Keys4.mp3")
-// const Keys5 = require("./mp3/Keys5.mp3")
-// const Keys6 = require("./mp3/Keys6.mp3")
-// const Keys7 = require("./mp3/Keys7.mp3")
-// const Keys8 = require("./mp3/Keys8.mp3")
-// const Keys9 = require("./mp3/Keys9.mp3")
-// const Keys10 = require("./mp3/Keys10.mp3")
-// const Keys11 = require("./mp3/Keys11.mp3")
-// const Marimba1 = require("./mp3/Marimba1.mp3")
-// const Marimba2 = require("./mp3/Marimba2.mp3")
-// const Marimba3 = require("./mp3/Marimba3.mp3")
-// const Marimba4 = require("./mp3/Marimba4.mp3")
-// const Marimba5 = require("./mp3/Marimba5.mp3")
-// const Marimba6 = require("./mp3/Marimba6.mp3")
-// const Marimba7 = require("./mp3/Marimba7.mp3")
-// const Marimba8 = require("./mp3/Marimba8.mp3")
-// const Marimba9 = require("./mp3/Marimba9.mp3")
-// const Marimba10 = require("./mp3/Marimba10.mp3")
-// const Marimba11 = require("./mp3/Marimba11.mp3")
-// const Marimba12 = require("./mp3/Marimba12.mp3")
-// const Marimba13 = require("./mp3/Marimba13.mp3")
-// const Voice1 = require("./mp3/Voice1.mp3")
-// const Voice2 = require("./mp3/Voice2.mp3")
-// const Xylo1 = require("./mp3/Xylo1.mp3")
-// const Xylo2 = require("./mp3/Xylo2.mp3")
+import Blip1 from "./mp3/Blip1.mp3"
+import Blip2 from "./mp3/Blip2.mp3"
+import Blip3 from "./mp3/Blip3.mp3"
+import Blip4 from "./mp3/Blip4.mp3"
+import Blip5 from "./mp3/Blip5.mp3"
+import Blip6 from "./mp3/Blip6.mp3"
+import Blip7 from "./mp3/Blip7.mp3"
+import Blip8 from "./mp3/Blip8.mp3"
+import Blip9 from "./mp3/Blip9.mp3"
+import Blip10 from "./mp3/Blip10.mp3"
+import FastType from "./mp3/FastType.mp3"
+import Keys1 from "./mp3/Keys1.mp3"
+import Keys2 from "./mp3/Keys2.mp3"
+import Keys3 from "./mp3/Keys3.mp3"
+import Keys4 from "./mp3/Keys4.mp3"
+import Keys5 from "./mp3/Keys5.mp3"
+import Keys6 from "./mp3/Keys6.mp3"
+import Keys7 from "./mp3/Keys7.mp3"
+import Keys8 from "./mp3/Keys8.mp3"
+import Keys9 from "./mp3/Keys9.mp3"
+import Keys10 from "./mp3/Keys10.mp3"
+import Keys11 from "./mp3/Keys11.mp3"
+import Marimba1 from "./mp3/Marimba1.mp3"
+import Marimba2 from "./mp3/Marimba2.mp3"
+import Marimba3 from "./mp3/Marimba3.mp3"
+import Marimba4 from "./mp3/Marimba4.mp3"
+import Marimba5 from "./mp3/Marimba5.mp3"
+import Marimba6 from "./mp3/Marimba6.mp3"
+import Marimba7 from "./mp3/Marimba7.mp3"
+import Marimba8 from "./mp3/Marimba8.mp3"
+import Marimba9 from "./mp3/Marimba9.mp3"
+import Marimba10 from "./mp3/Marimba10.mp3"
+import Marimba11 from "./mp3/Marimba11.mp3"
+import Marimba12 from "./mp3/Marimba12.mp3"
+import Marimba13 from "./mp3/Marimba13.mp3"
+import Voice1 from "./mp3/Voice1.mp3"
+import Voice2 from "./mp3/Voice2.mp3"
+import Xylo1 from "./mp3/Xylo1.mp3"
+import Xylo2 from "./mp3/Xylo2.mp3"
+
+const sounds = {
+  Blip1,
+  Blip2,
+  Blip3,
+  Blip4,
+  Blip5,
+  Blip6,
+  Blip7,
+  Blip8,
+  Blip9,
+  Blip10,
+  FastType,
+  Keys1,
+  Keys2,
+  Keys3,
+  Keys4,
+  Keys5,
+  Keys6,
+  Keys7,
+  Keys8,
+  Keys9,
+  Keys10,
+  Keys11,
+  Marimba1,
+  Marimba2,
+  Marimba3,
+  Marimba4,
+  Marimba5,
+  Marimba6,
+  Marimba7,
+  Marimba8,
+  Marimba9,
+  Marimba10,
+  Marimba11,
+  Marimba12,
+  Marimba13,
+  Voice1,
+  Voice2,
+  Xylo1,
+  Xylo2,
+}
 
 const handleButtonClick = (e) => {
   const { target } = e
 
   if (target.matches("button")) {
     const id = target.id.replace("-button", "")
-    console.log(id)
-
     const select = document.getElementById(id)
-    console.log(select.value)
     const soundName = select.value
     playSound(soundName)
   }
@@ -89,9 +128,9 @@ const handleSubmitClick = (e) => {
 }
 
 const playSound = (soundName) => {
-  const location = `./mp3/${soundName}.mp3`
-  console.log("will play", location)
-  const sound = new Audio(location)
+  // const location = `./mp3/${soundName}.mp3`
+  console.log("will play", soundName)
+  const sound = new Audio(sounds[soundName])
 
   sound.play()
 }
@@ -106,4 +145,4 @@ const button3 = document.getElementById("outgoing-button")
 button3.addEventListener("click", handleButtonClick)
 
 const submitButton = document.getElementById("submit")
-button3.addEventListener("click", handleSubmitClick)
+submitButton.addEventListener("click", handleSubmitClick)
